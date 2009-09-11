@@ -5,7 +5,7 @@ use Gtk2 -init;
 use Gnome2::Wnck;
 use Data::Dumper;
 
-my $match = shift || "no such window";
+my $match = shift || "^no such window";
 
 my $screen = Gnome2::Wnck::Screen->get_default();
 $screen->force_update();
@@ -16,7 +16,7 @@ $screen->force_update();
 my @windows = $screen->get_windows;
 foreach my $win (@windows) {
     print $win->get_name, "\n";
-    if ($win->get_name =~ /$match/) {
+    if ($win->get_name =~ /$match/i) { # make the match case insensitive
         print "\tWould match!\n";
         $win->get_workspace->activate(time);
         $win->activate(time);
