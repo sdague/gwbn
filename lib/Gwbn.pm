@@ -3,6 +3,8 @@ package Gwbn;
 use 5.010000;
 use strict;
 use warnings;
+use Gtk2 -init;
+use Gnome2::Wnck;
 
 require Exporter;
 
@@ -80,8 +82,6 @@ Blah blah blah.
 =head2 EXPORT
 
 None by default.
-
-
 
 =head1 SEE ALSO
 

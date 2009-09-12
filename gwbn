@@ -14,8 +14,6 @@ gwbn is a program that goes to a window by name
 
 use strict;
 
-use Gtk2 -init;
-use Gnome2::Wnck;
 use Data::Dumper;
 use Getopt::Std;
 use lib 'lib';
