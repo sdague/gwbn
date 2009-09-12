@@ -1,0 +1,6 @@
+Revision history for Perl extension Gwbn.
+
+0.01  Fri Sep 11 16:56:34 2009
+	- original version; created by h2xs 1.23 with options
+		-X gwbn
+
