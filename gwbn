@@ -8,7 +8,25 @@ gwbn - goto window by name
 
 =head1 SYNOPSIS
 
-gwbn is a program that goes to a window by name 
+gwbn is designed to goto a window by name in a Linux / Gnome
+environment.  It is inspired on a tool that I had back with the ion
+window manager that would do the same thing.  gwbn takes a regular
+expression on the command line and changes workspaces, and activates
+the target window, for the first window that matches.
+
+Example:
+
+ gwbn emacs
+
+Will take you to your emacs window.
+
+=head1 AUTHOR
+
+Sean Dague E<lt>sean@dague.netE<gt>
+
+=head1 LICENSE
+
+gwbn is released under the MIT license.  See COPYING for more details.
 
 =cut
 

@@ -1,6 +1,8 @@
 Changes
+COPYING
 Makefile.PL
 MANIFEST
-README
+README.txt
 t/Gwbn.t
 lib/Gwbn.pm
+gwbn
